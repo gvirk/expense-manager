@@ -2,6 +2,7 @@ import React from 'react';
 import {Route} from 'react-router-dom';
 import Income from './screens/Income';
 import Expense from './screens/Expense';
+import Stat from './screens/Stat';
 
 const routes = [
     {
@@ -16,6 +17,10 @@ const routes = [
     {
         path: '/expense',
         component: Expense
+    },
+    {
+        path: '/stat',
+        component: Stat
     }
 ];
 
