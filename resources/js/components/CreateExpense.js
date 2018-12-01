@@ -11,7 +11,7 @@ const StyledForm = styled.form`
     }
     fieldset {
         border: none;
-    }~
+    }
     label {
         display: block;
         margin-bottom: 1em;
@@ -26,7 +26,7 @@ class CreateExpense extends Component {
     render() {
         return (
             <StyledForm>
-                <h2>New Expense</h2>
+                <h2>Expense Details</h2>
                 <fieldset>
                     <label htmlFor="date">
                         Date

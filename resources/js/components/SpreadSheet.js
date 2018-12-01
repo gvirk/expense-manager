@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import SpreadSheetRow from './SpreadSheetRow';
-import expense from '../seed';
 import styled from 'styled-components';
 
 
@@ -11,10 +10,12 @@ const Table = styled.table`
 
 class SpreadSheet extends Component {
     render() {
+        const {data} = this.props;
+        
         return (
             <Table>
                 <tbody>
-                    {expense.map((row, index) => (
+                    {data.map((row, index) => (
                         <SpreadSheetRow key={index} data={row} />   
                     ))}
                 </tbody>
