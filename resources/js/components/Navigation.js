@@ -35,6 +35,9 @@ class Navigation extends Component {
                 <NavItem>
                     <Link to="/income">Income</Link>
                 </NavItem>
+                <NavItem>
+                    <Link to="/stat">Stat</Link>
+                </NavItem>
             </Nav>
         );
     }
