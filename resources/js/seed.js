@@ -1,0 +1,51 @@
+const expense = [
+    [
+        { data: 'Year 2018', header: true },
+        { data: 'Jan', header: true },
+        { data: 'Feb', header: true },
+        { data: 'Mar', header: true },
+        { data: 'Apr', header: true },
+        { data: 'May', header: true },
+        { data: 'Jun', header: true },
+        { data: 'Jul', header: true },
+        { data: 'Aug', header: true },
+        { data: 'Sep', header: true },
+        { data: 'Oct', header: true },
+        { data: 'Nov', header: true },
+        { data: 'Dec', header: true },
+    ],
+    [
+        { data: 'Salary', header: true },
+        { data: '3270.56'},
+        { data: '3270.56'},
+        { data: '3270.56'},
+        { data: '3270.56'},
+        { data: '3270.56'},
+        { data: '3270.56'},
+        { data: '3270.56'},
+        { data: '3270.56'},
+        { data: '3270.56'},
+        { data: '3270.56'},
+        { data: '3270.56'},
+        { data: '3270.56'},
+    ],
+    [
+        { data: 'Salary', header: true },
+        { data: '3270.56' },
+        { data: '3270.56' },
+        { data: '3270.56' },
+        { data: '' },
+        { data: '3270.56' },
+        { data: '3270.56' },
+        { data: '3270.56' },
+        { data: '3270.56' },
+        { data: '3270.56' },
+        { data: '3270.56' },
+        { data: '3270.56' },
+        { data: '3270.56' },
+    ],
+
+];
+
+export default expense;
+export {}
